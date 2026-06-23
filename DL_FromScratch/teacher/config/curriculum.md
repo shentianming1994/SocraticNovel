@@ -31,19 +31,19 @@
 
 ## 章节详表与教材路径映射
 
-> 教材路径采用占位符 `{textbook}` 表示已上传的 OCR Markdown 主文件。运行时以会话中实际上传的文件为准；若教材被拆分为多文件，按章节定位对应段落。
+> 教材路径采用占位符 `materials/textbook/dl_from_scratch.md` 表示已上传的 OCR Markdown 主文件。运行时以会话中实际上传的文件为准；若教材被拆分为多文件，按章节定位对应段落。
 
 | 章 | 标题 | 教材定位 | 核心实现任务 |
 |----|------|---------|------------|
-| Ch.1 | Python 入门 | `{textbook}` 第1章 | NumPy 数组、广播、matplotlib 基础 |
-| Ch.2 | 感知机 | `{textbook}` 第2章 | AND/OR/NAND 门、XOR 与多层感知机 |
-| Ch.3 | 神经网络 | `{textbook}` 第3章 | 激活函数、多维数组运算、前向传播、手写数字识别推理 |
-| Ch.4 | 神经网络的学习 | `{textbook}` 第4章 | 损失函数、数值微分、梯度、梯度下降、mini-batch 学习 |
-| Ch.5 | 误差反向传播法 | `{textbook}` 第5章 | 计算图、链式法则、各层（Affine/ReLU/Sigmoid）的反向传播实现 |
-| AppA | Softmax-with-Loss | `{textbook}` 附录A | Softmax 与交叉熵的合并层、数值稳定性 |
-| Ch.6 | 与学习相关的技巧 | `{textbook}` 第6章 | 参数更新方法（SGD/Momentum/Adam）、权重初始化、Batch Norm、正则化、Dropout、超参数 |
-| Ch.7 | 卷积神经网络 | `{textbook}` 第7章 | 卷积层、池化层、im2col、CNN 实现与可视化 |
-| Ch.8 | 深度学习 | `{textbook}` 第8章 | 加深网络、代表性架构、深度学习的应用与前景 |
+| Ch.1 | Python 入门 | `materials/textbook/dl_from_scratch.md` 第1章 | NumPy 数组、广播、matplotlib 基础 |
+| Ch.2 | 感知机 | `materials/textbook/dl_from_scratch.md` 第2章 | AND/OR/NAND 门、XOR 与多层感知机 |
+| Ch.3 | 神经网络 | `materials/textbook/dl_from_scratch.md` 第3章 | 激活函数、多维数组运算、前向传播、手写数字识别推理 |
+| Ch.4 | 神经网络的学习 | `materials/textbook/dl_from_scratch.md` 第4章 | 损失函数、数值微分、梯度、梯度下降、mini-batch 学习 |
+| Ch.5 | 误差反向传播法 | `materials/textbook/dl_from_scratch.md` 第5章 | 计算图、链式法则、各层（Affine/ReLU/Sigmoid）的反向传播实现 |
+| AppA | Softmax-with-Loss | `materials/textbook/dl_from_scratch.md` 附录A | Softmax 与交叉熵的合并层、数值稳定性 |
+| Ch.6 | 与学习相关的技巧 | `materials/textbook/dl_from_scratch.md` 第6章 | 参数更新方法（SGD/Momentum/Adam）、权重初始化、Batch Norm、正则化、Dropout、超参数 |
+| Ch.7 | 卷积神经网络 | `materials/textbook/dl_from_scratch.md` 第7章 | 卷积层、池化层、im2col、CNN 实现与可视化 |
+| Ch.8 | 深度学习 | `materials/textbook/dl_from_scratch.md` 第8章 | 加深网络、代表性架构、深度学习的应用与前景 |
 
 ---
 
