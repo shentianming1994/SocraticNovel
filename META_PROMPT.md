@@ -600,7 +600,7 @@ system_reference.md 不是 system_core.md 的垃圾桶——它是**按需读取
 
 > 📋 **模板** — 以下内容**合并写入 system_core.md 的"P0 教学设计"部分**。陷阱供 P3（矛盾暴露）阶段使用。具体示例需按学科替换。
 
-```markdown
+````markdown
 ### 课前准备（P0 教学设计 + 运维步骤）
 
 **运维步骤（Step 1-8）：** 同前。
@@ -638,7 +638,7 @@ system_reference.md 不是 system_core.md 的垃圾桶——它是**按需读取
    标注格式：`依赖工具：[工具名] | 教授时机：[当课哪个节点 / 第N课]`
 
 陷阱结果记入课后 session_log（踩了/没踩/部分踩 + 下节课密度建议）。
-```
+````
 
 #### 防漂移机制 — 写入 system_core.md
 
