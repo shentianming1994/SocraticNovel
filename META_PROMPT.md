@@ -428,9 +428,11 @@ AI 模型的上下文窗口有限（约 200K tokens ≈ 150KB 中文文本）。
   ### 首次启动流程（索引 → system_reference.md 详细版）
   ### 课前准备
     - Step 1-8（原有运维步骤）
-    - **P0 教学设计**：里程碑关键词（无序集合）+ P0.5 头脑风暴
-    - Step 9：规划超纲拓展素材
-    - Step 10：规划 1-2 个教学陷阱（供 P3 使用）
+    - **P0 教学设计（Step 9-12）**：
+      - Step 9：里程碑关键词（无序集合）
+      - Step 10：P0.5 头脑风暴
+      - Step 11：规划超纲拓展素材
+      - Step 12：规划教学陷阱（含约束/工具前置检查）
   ### 过渡场景规则（索引 → system_reference.md 详细版）
   ### 课中流程（P1 侦察 → P2 先行失败 → P3 矛盾暴露 → P4 苏格拉底重构 → P5 命名与回看 → 随堂做题）
   ### 课后更新
@@ -1249,17 +1251,17 @@ knowledge_points/
 - [ ] `system_core.md` 包含完整的苏格拉底教学法示范（400-800字的教学场景）
 - [ ] 每个角色有独立文件，四维度描写完整，"说话的样子"段落具体到读完就能听见声音
 - [ ] 每个角色的 do/don't 速查已写入 system_core.md
+- [ ] **每个角色文件**和 system_core.md 声音速查都定义了认可梯度（轻/中/重）及频率约束
 - [ ] `story_progression/` 目录结构正确（overview + 各章文件 + appendix）
 - [ ] story_progression 每个章节条目有：角色状态 + 必然节点 + 机会节点 + 犯错节点 + 群聊脉搏 + Fallback
+- [ ] **story_progression** 每章"课中"首个节点是具象经验而非公式/抽象定义
 - [ ] `knowledge_points/` 目录结构正确（overview + 各章文件，ch{XX}.md 头部含教材/练习册路径）
 - [ ] 教学轮值在 story_progression/overview.md 和 curriculum.md 中一致
 - [ ] 暗线种子回收计划存在于 story_progression/appendix.md
 - [ ] 规则嵌入：角色文件 / runtime 文件头部含对应操作规则
 - [ ] `/校准` 防漂移机制写入 system_core.md
-- [ ] **story_progression** 每章"课中"首个节点是具象经验而非公式/抽象定义
+- [ ] 课前 Step 9-12（里程碑 + 头脑风暴 + 超纲素材 + 教学陷阱）写入 system_core.md
 - [ ] **Step 12** 每个陷阱均标注"依赖约束+建立时机"和"依赖工具+教授时机"，两项缺一不改
-- [ ] **每个角色文件**和 system_core.md 声音速查都定义了认可梯度（轻/中/重）及频率约束
-- [ ] 课前 Step 9-10（超纲素材 + 教学陷阱）写入 system_core.md
 - [ ] 课后 session_log 包含陷阱结果记录规则
 - [ ] 群聊规则（如启用）包含温度变化指引，嵌入 wechat_group.md 头部
 - [ ] 复习系统的间隔硬编码已写入 system_core.md
